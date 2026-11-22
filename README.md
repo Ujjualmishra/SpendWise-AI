@@ -68,4 +68,4 @@ Profile PINs are hashed on the server. The PIN prompt is rate limited. A profile
 
 The footer's legal links are currently display placeholders and must not be treated as published legal pages. The built-in password login uses Werkzeug's password hash, HTTP-only and SameSite cookies, and a configurable Secure flag. Cookie-based CSRF protection and complete production security review remain necessary before deployment. The development secret fallback must be replaced via environment configuration.
 
-**Launch status: blocked.** No production database, secrets, hosting, DNS, domain, HTTPS, migrations, or authorization test results have been configured or verified.
+
